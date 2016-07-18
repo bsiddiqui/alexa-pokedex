@@ -1,0 +1,34 @@
+{
+  "name": "alexa-pokedex",
+  "version": "0.0.0",
+  "description": "Alexa pokedex skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsiddiqui/alexa-pokedex.git"
+  },
+  "keywords": [
+    "pokemon",
+    "pokedex",
+    "alexa",
+    "echo"
+  ],
+  "author": "Basil Siddiqui <basil.siddiqui@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsiddiqui/alexa-pokedex/issues"
+  },
+  "homepage": "https://github.com/bsiddiqui/alexa-pokedex#readme",
+  "devDependencies": {
+    "standard": "^7.1.2"
+  },
+  "dependencies": {
+    "alexa-router": "estate/alexa-router",
+    "hapi": "^13.5.0",
+    "hapi-router": "^3.5.0",
+    "pokedex-promise-v2": "^2.1.0"
+  }
+}
