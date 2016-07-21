@@ -7,7 +7,10 @@ let Hapi = require('hapi')
 let Alexa = require('alexa-router')
 let glob = require('glob')
 
-let alexa = new Alexa.Router()
+let alexa = new Alexa.Router({
+  appId: process.env.ALEXA_APP_ID
+})
+
 let server = new Hapi.Server({
   debug: {
     request: ['error', 'validation']

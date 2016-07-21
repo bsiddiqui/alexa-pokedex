@@ -5,7 +5,7 @@ let handlers = require('./handlers')
 module.exports = alexa => {
   alexa.action('pokemon-identify', {
     handler: handlers.identify,
-    auto: {
+    global: {
       type: 'intent',
       intent: 'PokemonIdentify'
     }

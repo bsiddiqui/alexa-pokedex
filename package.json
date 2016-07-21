@@ -26,8 +26,12 @@
     "standard": "^7.1.2"
   },
   "dependencies": {
-    "alexa-router": "estate/alexa-router",
+    "alexa-router": "^2.0.0",
+    "bluebird": "^3.4.1",
+    "co": "^4.6.0",
+    "glob": "^7.0.5",
     "hapi": "^13.5.0",
+    "hapi-alexa-router": "^2.0.0",
     "hapi-router": "^3.5.0",
     "pokedex-promise-v2": "^2.1.0"
   }
